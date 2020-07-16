@@ -1,3 +1,6 @@
+### Autotools ###
+# https://github.com/github/gitignore/blob/master/Autotools.gitignore
+
 # http://www.gnu.org/software/automake
 
 Makefile.in
@@ -47,3 +50,40 @@ m4/lt~obsolete.m4
 # can automatically generate from config.status script
 # (which is called by configure script))
 Makefile
+
+### C++ ###
+# https://github.com/github/gitignore/edit/master/C++.gitignore
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
