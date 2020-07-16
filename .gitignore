@@ -9,6 +9,8 @@ Makefile.in
 /py-compile
 /test-driver
 /ylwrap
+.deps/
+.dirstamp
 
 # http://www.gnu.org/software/autoconf
 
@@ -28,6 +30,10 @@ autom4te.cache
 /install-sh
 /missing
 /stamp-h1
+
+# Not sure about this one as it wasn't part of Github's .gitignore template.
+# Adding it anyway because it is auto-generated!
+/config.h
 
 # https://www.gnu.org/software/libtool/
 
